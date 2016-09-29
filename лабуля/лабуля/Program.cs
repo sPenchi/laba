@@ -19,7 +19,8 @@ namespace лабуля
             System.Console.WriteLine("Сложение, a + b =  " + result);
             result = a * b;
             System.Console.WriteLine("Умножение, a * b =  " + result);
-
+            result = a / b;
+            System.Console.WriteLine("Деление, a / b =  " + result + " a и  b - целые числа, деление только нацело");
             System.Console.ReadLine();
 
         }
